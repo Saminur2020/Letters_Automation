@@ -118,7 +118,7 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1916,1999" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1916,2172" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_SelectedExcelFile" />
       <Variable x:TypeArguments="x:String" Name="str_SelectedWordFile" />
@@ -138,6 +138,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="554,173" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Test&quot;]" />
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Remind the user to specifically select an excel file" AutoCloseAfter="00:00:00" DisplayName="Message Box - Remind to Select Letters.xlsx" sap:VirtualizedContainerService.HintSize="554,148" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Please select Letters excel file &quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
